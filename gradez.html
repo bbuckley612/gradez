@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GradEZ</title>
+  <meta name="description" content="GradEZ">
+  <meta name="author" content="Brian Buckley">
+</head>
+<body>
+  <form>
+    <label for="E0">E0</label>
+    <input type="text" name="E0" id="E0" value="0.9648">
+    <br>
+    <label for="y0">y0</label>
+    <input type="text" name="y0" id="y0" value="8.9">
+    <br>
+    <label for="E1">E1</label>
+    <input type="text" name="E1" id="E1" value="0.9641">
+    <br>
+    <label for="y1">y1</label>
+    <input type="text" name="y1" id="y1" value="0.0027x + 8.8">
+    <br>
+    <label for="E2">E2</label>
+    <input type="text" name="E2" id="E2" value="0.8358">
+    <br>
+    <label for="y2">y2</label>
+    <input type="text" name="y2" id="y2" value="0.011x^2 + -0.17x + 9.4">
+    <br>
+    <label for="E3">E3</label>
+    <input type="text" name="E3" id="E3" value="0.8524">
+    <br>
+    <label for="y3">y3</label>
+    <input type="text" name="y3" id="y3" value="0.00016x^3 + 0.0064x^2 + -0.13x + 9.3">
+    <br>
+    <label for="E4">E4</label>
+    <input type="text" name="E4" id="E4" value="1.469">
+    <br>
+    <label for="y4">y4</label>
+    <input type="text" name="y4" id="y4" value="-0.0021x^4 + 0.058x^3 + -0.50x^2 + 1.4x + 8.1">
+    <br>
+    <label for="x">x</label>
+    <input type="text" name="x" id="x" value="15">
+    <br>
+    <label for="t">t</label>
+    <input type="text" name="t" id="t" value="22">
+    <br><br>
+    <input type="button" name="submit" onclick="myCalc()" value="Submit">
+  </form>
+  <script src="math.js"></script>
+  <script src="gradez.js"></script>
+</body>
+</html>
